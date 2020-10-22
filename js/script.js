@@ -5,7 +5,7 @@ console.log(mailUtente);
 var emailList = ["ethanhunt.@impossible.it" ,"gokusan@email.it","barneystinson@email.it","capitanjack.sparrow@email.it","ninnanna@email.it"]
 console.log(emailList)
 //Controllo che la mail stia nell'elenco
-var message = false;
+var mailPresente = false;
 
 for (var i = 0; i < emailList.length; i++){
   if (mailUtente == emailList[i]){
